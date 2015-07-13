@@ -3,7 +3,6 @@
 
 int main(int argc, char *argv[])
 {
-	int a;
 	QApplication a(argc, argv);
 	ScissorStructure w;
 	w.show();
