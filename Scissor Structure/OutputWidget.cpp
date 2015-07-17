@@ -15,11 +15,4 @@ void OutputWidget::paintEvent(QPaintEvent *paintevent)
 
 	painter.end();
 }
-void OutputWidget::widget_position(int start_pos_x, int start_pos_y, int width, int height)
-{
-	start_pos_x_ = start_pos_x;
-	start_pos_y_ = start_pos_y;
-	width_ = width;
-	height_ = height;
-}
 

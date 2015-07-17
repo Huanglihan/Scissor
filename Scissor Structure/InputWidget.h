@@ -1,5 +1,6 @@
 #pragma once
 #include <QWidget>
+#include "ScissorSkelecton.h"
 // #include <opencv2/highgui/highgui.hpp>
 // #include <opencv2/imgproc/imgproc.hpp>
 // #include <opencv2/core/core.hpp>
@@ -27,16 +28,8 @@ protected:
 	void mouseMoveEvent(QMouseEvent *mouseevent);
 	void mouseReleaseEvent(QMouseEvent *mouseevent);
 
-
-public:
-	void widget_position(int start_pos_x, int start_pos_y, int width, int height);
-
 private:
-	int start_pos_x_;
-	int start_pos_y_;
-	int width_;
-	int height_;
-
+	ScissorSkelecton *scissor_skelecton_;
 };
 
 

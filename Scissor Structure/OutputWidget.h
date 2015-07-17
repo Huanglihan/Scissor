@@ -24,14 +24,6 @@ public:
 protected:
 	void paintEvent(QPaintEvent *paintevent);
 
-public:
-	void widget_position(int start_pos_x, int start_pos_y, int width, int height);
-
-private:
-	int start_pos_x_;
-	int start_pos_y_;
-	int width_;
-	int height_;
 
 
 };

@@ -65,6 +65,9 @@
     <ClCompile Include="GeneratedFiles\Release\moc_OutputWidget.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
+    <ClCompile Include="ScissorSkelecton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="mainwindow.h">
@@ -105,6 +108,9 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_mainwindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScissorSkelecton.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
