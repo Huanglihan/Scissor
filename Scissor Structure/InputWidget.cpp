@@ -26,9 +26,9 @@ void InputWidget::paintEvent(QPaintEvent *paintevent)
 	painter.begin(this);
 
 	// Draw background
-// 	painter.setBrush(Qt::white);
-//  	QRect back_rect(start_pos_x_, start_pos_y_, width_, height_);
-//  	painter.drawRect(back_rect);
+	painter.setBrush(Qt::white);
+ 	QRect back_rect(0, 0, width(), height());
+ 	painter.drawRect(back_rect);
 
 	painter.end();
 }
