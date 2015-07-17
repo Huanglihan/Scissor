@@ -19,7 +19,7 @@ class InputWidget :
 
 public:
 	InputWidget(void){};
-	InputWidget(QWidget* parent = 0, Qt::WindowFlags f = 0){};
+	InputWidget(QWidget* parent = 0, Qt::WindowFlags f = 0);
 	~InputWidget(void){};
 
 protected:

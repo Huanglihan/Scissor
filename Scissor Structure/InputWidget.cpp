@@ -3,14 +3,11 @@
 #include <QPainter>
 #include <QtWidgets> 
 
-// InputWidget::InputWidget(QWidget* parent, Qt::WindowFlags f)
-// {
-// 	this->setAutoFillBackground(true);
-// 	QPalette background_;
-// 	background_.setColor(QPalette::Background, Qt::white);
-// 	this->setPalette(background_);
-// 
-// }
+InputWidget::InputWidget(QWidget* parent, Qt::WindowFlags f)
+{
+	scissor_skelecton_ = new ScissorSkelecton(3, /*this->geometry().width()=*/ 241, /*this->geometry().height()=*/ 141);
+
+}
 // 
 // InputWidget::InputWidget(void)
 // {
@@ -28,7 +25,8 @@ void InputWidget::paintEvent(QPaintEvent *paintevent)
 	// Draw background
 	painter.setBrush(Qt::white);
  	QRect back_rect(0, 0, width(), height());
- 	painter.drawRect(back_rect);
+	painter.drawRect(back_rect);
+	scissor_skelecton_->draw_skelecton(painter);
 
 	painter.end();
 }

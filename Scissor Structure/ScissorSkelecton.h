@@ -12,7 +12,7 @@ enum SkelectonType
 class ScissorSkelecton
 {
 public:
-	ScissorSkelecton(int point_num);
+	ScissorSkelecton(int point_num, int width, int height);
 	~ScissorSkelecton(){};
 
 public:
