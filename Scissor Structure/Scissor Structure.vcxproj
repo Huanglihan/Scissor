@@ -168,7 +168,11 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="mainwindow.cpp" />
     <ClCompile Include="OutputWidget.cpp" />
+    <ClCompile Include="ScissorParallel.cpp" />
     <ClCompile Include="ScissorSkelecton.cpp" />
+    <ClCompile Include="ScissorSymmetric.cpp" />
+    <ClCompile Include="SegmentParallel.cpp" />
+    <ClCompile Include="SegmentSymmetric.cpp" />
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="InputWidget.h">
@@ -288,7 +292,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_mainwindow.h" />
+    <ClInclude Include="ScissorParallel.h" />
     <ClInclude Include="ScissorSkelecton.h" />
+    <ClInclude Include="ScissorSymmetric.h" />
+    <ClInclude Include="SegmentParallel.h" />
+    <ClInclude Include="SegmentSymmetric.h" />
     <CustomBuild Include="OutputWidget.h">
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(QTDIR)\bin\moc.exe;%(FullPath)</AdditionalInputs>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Moc%27ing OutputWidget.h...</Message>
@@ -313,7 +321,7 @@
   </ImportGroup>
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_Win32="msvc2013_64_opengl" Qt5Version_x0020_x64="$(DefaultQtVersion)" MocOptions="" />
+      <UserProperties MocDir=".\GeneratedFiles\$(ConfigurationName)" UicDir=".\GeneratedFiles" RccDir=".\GeneratedFiles" lupdateOptions="" lupdateOnBuild="0" lreleaseOptions="" Qt5Version_x0020_Win32="msvc2013_opengl" Qt5Version_x0020_x64="$(DefaultQtVersion)" MocOptions="" />
     </VisualStudio>
   </ProjectExtensions>
 </Project>

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'mainwindow.ui'
 **
-** Created by: Qt User Interface Compiler version 5.4.0
+** Created by: Qt User Interface Compiler version 5.4.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -23,8 +23,6 @@
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
-#include "InputWidget.h"
-#include "OutputWidget.h"
 
 QT_BEGIN_NAMESPACE
 
@@ -79,7 +77,7 @@ public:
         verticalLayout->setContentsMargins(11, 11, 11, 11);
         verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        output_widget = new OutputWidget(verticalLayoutWidget);
+        output_widget = new QWidget(verticalLayoutWidget);
         output_widget->setObjectName(QStringLiteral("output_widget"));
 
         verticalLayout->addWidget(output_widget);
@@ -105,7 +103,7 @@ public:
         gridLayout_2->setContentsMargins(11, 11, 11, 11);
         gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
         gridLayout_2->setContentsMargins(0, 0, 0, 0);
-        start_input_widget = new InputWidget(gridLayoutWidget_2);
+        start_input_widget = new QWidget(gridLayoutWidget_2);
         start_input_widget->setObjectName(QStringLiteral("start_input_widget"));
 
         gridLayout_2->addWidget(start_input_widget, 0, 0, 1, 1);
@@ -118,7 +116,7 @@ public:
         gridLayout_3->setContentsMargins(11, 11, 11, 11);
         gridLayout_3->setObjectName(QStringLiteral("gridLayout_3"));
         gridLayout_3->setContentsMargins(0, 0, 0, 0);
-        end_input_widget = new InputWidget(gridLayoutWidget_3);
+        end_input_widget = new QWidget(gridLayoutWidget_3);
         end_input_widget->setObjectName(QStringLiteral("end_input_widget"));
 
         gridLayout_3->addWidget(end_input_widget, 0, 0, 1, 1);
